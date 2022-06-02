@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-  width: 1200px;
+  width: auto;
   height: auto;
   background-color: #f3f3f3;
 
@@ -327,13 +327,13 @@ a:active {
   animation-iteration-count: 10;
   animation-name: loading;
 }
-*/
+
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/*
+
 @keyframe loading {
   0% {
     opacity: 0.9;
