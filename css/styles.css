@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-  width: auto;
+  max-width: auto;
   height: auto;
   background-color: #f3f3f3;
   justify-content: center;
@@ -57,7 +57,7 @@ h1 {
 /* Box Model */
 
 .container {
-  max-width: 750px;
+  max-width: 80%;
   margin: auto;
   padding-top: 30px;
 }
@@ -169,9 +169,9 @@ a:active {
   color: #868686;
 }
 
-.contact h2 {
+/* .contact h2 {
   text-align: center;
-}
+} */
 
 .form-group input,
 .form-group textarea {
@@ -328,14 +328,14 @@ a:active {
   animation-iteration-count: 10;
   animation-name: loading;
 }
-
-.container {
+*/
+/* .container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-@keyframe loading {
+/* @keyframe loading {
   0% {
     opacity: 0.9;
     right: 0px;
@@ -389,4 +389,4 @@ a:active {
     right: 0px;
     top: 0px;
   }
-} */
+}  */
